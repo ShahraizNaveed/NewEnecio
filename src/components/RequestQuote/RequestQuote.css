@@ -1,0 +1,42 @@
+.getQuote-section{
+    margin: 100px 0;
+}
+
+.quote-heading {
+    color: #F3BC00;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.getQuote-section h4 {
+    color: #000000;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.submit-button{
+    margin-top: 20px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: #F3BC00;
+    color: white;
+    transition: all ease 0.5s;
+}
+
+.submit-button:hover {
+    background-color: #15304E;
+}
+
+.getQuote-section h6 {
+    color: #000000;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.style-col p {
+    font-weight: 500;
+    color: #838486;
+    /* font-size: 12px; */
+}

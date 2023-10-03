@@ -1,0 +1,51 @@
+.service-section {
+    background-color: #DEE0E3E5;
+}
+
+.service-section h1 {
+    padding-top: 40px;
+    font-weight: 600;
+}
+
+.service-section p {
+    margin-bottom: 70px;
+}
+
+.service-span{
+    font-weight: 600;
+    color: #f4ce11;
+}
+
+.our-services {
+    background-color: #3C3737;
+    width: 70px;
+    height: 70px;
+    rotate: 45deg;
+    transition: all ease 0.5s;
+}
+
+.our-services:hover {
+    background-color: #dabe32;
+}
+
+.our-services img {
+    rotate: 315deg;
+}
+
+.service-para {
+    margin: 35px 0;
+    text-align: center;
+}
+
+.below-margin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 400px) {
+    .below-margin{
+        display: none;
+    }
+}

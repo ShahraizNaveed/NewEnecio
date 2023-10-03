@@ -1,0 +1,45 @@
+.bread-crumb p {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    margin: 20px 0;
+}
+
+p a {
+    color: black;
+}
+
+.product-banner {
+    background-image: url('../../assets/images/productPage/singleProduct/reach-stacker.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+.gradient {
+    background: linear-gradient(90deg, #797A7F 28.82%, rgba(217, 217, 217, 0) 78.96%);
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.single-product-specs p {
+    font-size: 26px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.yellow {
+    color: #F0BD00;
+}
+
+.specs-2nd-div p {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    color: #FFFFFF;
+}

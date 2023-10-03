@@ -1,0 +1,28 @@
+.clients-section {
+    /* background-color: #DEE0E3E5; */
+    margin-bottom: 100px;
+}
+
+.title {
+    margin-bottom: 100px;
+}
+
+.image_wrapper {
+    margin: 0px 30px;
+}
+
+.image_wrapper img {
+    height: 50px;
+}
+
+.about-client-section h1 {
+    color: #15304E;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+.clients-section h6 {
+    padding-top: 30px;
+    color: #6E7689;
+}

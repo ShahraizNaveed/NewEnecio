@@ -1,0 +1,74 @@
+.testimonial-section {
+    padding: 50px 0 50px 0;
+}
+
+.testimonial-section h4 {
+    color: #000000;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.heading {
+    color: #DC1B1B;
+    font-weight: 600;
+}
+
+.card {
+    border: none;
+}
+
+.quote-icon img {
+    background-color: #838486;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.card-title {
+    margin-top: 50px;
+}
+
+.card-text {
+    color: #838486;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.avatar {
+    height: 40px !important;
+    border-radius: 50%;
+}
+
+.person-name{
+    margin-bottom: -5px;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.person-role{
+    color: #000000;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        margin-top: 30px !important;
+    }
+
+    .avatar {
+        height: 50px !important;
+    }
+
+    .card-title {
+        font-size: 12px !important;
+    }
+
+    .card-subtitle {
+        font-size: 12px !important;
+
+    }
+}

@@ -1,0 +1,23 @@
+.passion-banner {
+    background-color: #3C3737;
+    padding: 50px;
+}
+
+.passion-banner h2 {
+    font-size: 20px;
+    color: white;
+}
+
+.passion-btn {
+    border: 1px solid transparent;
+    padding: 15px 30px;
+    font-size: 15px;
+    background-color: #F0BD00;
+    transition: all ease 0.5s;
+}
+
+.passion-btn:hover {
+    border: 1px solid white;
+    background-color: #15304E;
+    color: white;
+}

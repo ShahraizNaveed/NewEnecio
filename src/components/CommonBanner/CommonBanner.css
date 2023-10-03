@@ -1,0 +1,21 @@
+.commonBanner {
+    height: 30vh;
+    background-color: #15304E;
+    color: white;
+}
+
+.commonBanner h1 {
+    font-size: 50px;
+    color: #f4ce11;
+    font-weight: 600;
+}
+
+@media screen and  (max-width: 600px) {
+    .commonBanner {
+        height: 20vh;
+    }
+
+    .commonBanner h1 {
+        font-size: 30px;
+    }
+}

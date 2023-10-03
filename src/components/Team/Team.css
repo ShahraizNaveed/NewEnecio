@@ -1,0 +1,45 @@
+.team-section {
+    margin: 100px 0;
+}
+
+.team-span {
+    font-weight: 600;
+    color: #797A7F;
+}
+
+.team-container {
+    position: relative;
+    cursor: pointer;
+
+}
+
+.team-content {
+    background-color: #3C3737;
+    position: absolute;
+    bottom: 0;
+    width: 182px;
+    height: 40px;
+    color: white;
+    transition: all ease 0.5s;
+}
+
+.name {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.role {
+    font-size: 8px;
+    margin-top: -20px;
+    font-weight: 200;
+}
+
+.team-container:hover .team-content {
+    background-color: #dabe32;
+    font-weight: 600;
+    color: #000000;
+}
+
+.team-container:hover .role {
+    font-weight: 600;
+}

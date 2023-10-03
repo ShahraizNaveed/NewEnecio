@@ -1,0 +1,143 @@
+.bg-color {
+    background-color: #EAEAEA;
+}
+
+.aboutBg-color {
+    margin-top: 50px;
+}
+
+.aboutHome-section {
+    padding: 50px 0;
+    margin-bottom: 100px;
+}
+
+.aboutHome-section h1 {
+    color: #000000;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.aboutHome-section .small-para {
+    border-left: 2px solid #FCD26E;
+    padding: 5px 20px;
+    color: #000000;
+    font-size: 12px;
+}
+
+.aboutHome-section .big-para {
+    color: #000000;
+    font-size: 12px;
+}
+
+.aboutHome-section .left-side-btn {
+    background-color: #15304E;
+    color: white;
+    font-size: 10px;
+    border: none;
+    padding: 20px 30px;
+    font-weight: 600;
+    transition: all ease 0.5s;
+}
+
+.left-side-btn:hover {
+    background-color: #F0BD00;
+    color: #000000;
+    font-weight: 600;
+}
+
+.heading-span {
+    color: #FCD26E;
+}
+
+.upper-portion {
+    position: absolute;
+    top: 35%;
+    background-color: #F0BD00;
+    border-radius: 5px;
+    padding: 20px 35px;
+    margin-left: -50px;
+}
+
+.typography-span {
+    color: #15304E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 800;
+    font-size: 32px;
+}
+
+.typography-p {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #15304E;
+    font-weight: 700;
+    font-size: 12px;
+    margin-top: -8px;
+}
+
+.right-side {
+    position: relative;
+}
+
+.projects-count {
+    color: #000000;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.project-complete {
+    font-weight: bold;
+    margin-top: -20px;
+}
+
+.followers {
+    color: #000000;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.company-followers {
+    font-weight: bold;
+    margin-top: -20px;
+}
+
+@media screen and (max-width: 768px) {
+    .upper-portion {
+        top: 30%;
+    }
+
+    .right-side {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .aboutHome-section h1 {
+        font-size: 20px;
+    }
+
+    .aboutHome-section .small-para {
+        font-size: 10px;
+    }
+
+    .aboutHome-section .big-para {
+        font-size: 10px;
+    }
+
+    .aboutHome-section .left-side-btn {
+        font-size: 8px;
+        padding: 15px 20px;
+    }
+
+    .right-side img {
+        height: 200px;
+    }
+
+    .upper-portion {
+        padding: 10px 25px;
+    }
+
+}

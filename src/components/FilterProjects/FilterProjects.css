@@ -1,0 +1,69 @@
+.filter-projects-section {
+  margin: 100px 0;
+}
+
+.galleryItem img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+.galleryItem {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.filterItem ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 20px;
+  margin-bottom: 70px;
+}
+
+.filterItem ul button {
+  color: #000000;
+  background: transparent;
+  font-size: 15px;
+  font-weight: 700;
+  border: none;
+  border-bottom: 2px solid transparent;
+  transition: all ease 0.2s;
+}
+
+.filterItem ul button:hover {
+  color: #F0BD00;
+  border-bottom: 2px solid #F0BD00;
+  cursor: pointer;
+}
+
+.selected {
+  color: #F0BD00;
+  border-bottom: 2px solid #F0BD00;
+}
+
+.service-name {
+  color: #838486;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 700;
+  margin-top: -10px;
+}
+
+.our-role {
+  color: #838486;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: -10px;
+}
+
+.our-role span {
+  color: #F0BD00;
+  font-size: 13px;
+  font-weight: 700;
+}

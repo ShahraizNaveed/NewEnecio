@@ -1,0 +1,74 @@
+.common-section {
+    display: flex;
+    text-align: center;
+}
+
+.left-section {
+    width: 50vw;
+    background-color: #34445D;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.right-section {
+    width: 50vw;
+    background-color: #f0bc00e4;
+    color: #000000;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.chooseUs {
+    color: #E6B607;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.make-world-better {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.south-central {
+    color: #E6B607;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.bring-idea {
+    font-size: 18px;
+    font-weight: 700;
+    color: #303342;
+}
+
+.innovation-to-life {
+    font-size: 12px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.contact-expert {
+    border: none;
+    background-color: #3C3737;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 768px) {
+    .common-section {
+        display: block;
+    }
+    .right-section {
+        width: 100vw;
+    }
+
+    .left-section {
+        width: 100vw;
+    }
+}

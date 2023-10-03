@@ -1,0 +1,46 @@
+.filter-section{
+    background-color: #F2F2F2;
+    padding: 20px;
+}
+
+.hero-image {
+    width: 100vw;
+}
+
+.search-field{
+    background-color: #F2F2F2 !important;
+}
+
+.prod-name {
+    font-size: 26px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.prod-title {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.prod-sepcs p {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    font-style: oblique;
+}
+
+.prod-sepcs span {
+    font-weight: 400;
+}
+
+.model-para {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    color: #747C7E;
+}
+
+.margin-negative {
+    margin-top: -20px;
+}

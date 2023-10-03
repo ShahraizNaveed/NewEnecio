@@ -1,0 +1,38 @@
+.navbar {
+    transition: all ease 0.5s;
+}
+
+.header-bg{
+    /* background-color: white; */
+    background-color: rgba(222, 224, 227, 0.9);
+}
+
+.nav-link{
+    color: black;
+    margin: 15px;
+    font-weight: 600 !important;
+    transition: all ease 0.25s;
+}
+
+.nav-link:hover {
+    color: #F0BD00 !important;
+}
+
+.active {
+    color: #F0BD00 !important;
+}
+
+.nav-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #FFD234;
+    color: black;
+    transition: all ease 0.5s;
+}
+
+.nav-icon:hover {
+    background-color: #F0BD00;
+    color: white;
+}

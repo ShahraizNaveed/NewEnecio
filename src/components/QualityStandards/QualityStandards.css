@@ -1,0 +1,56 @@
+.quality-section{
+    background-image: url('../../assets/images/about/about-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    margin-bottom: 100px;
+}
+
+.top-para {
+    color: #15304E;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.quality-section h4 {
+    color: #000000;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.bullet-para {
+    margin-top: 20px;
+}
+
+.bullet-para p {
+    color: #000000;
+    font-weight: 600;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+/* .negative-img{
+    margin: -200px 0 0 -100px;
+} */
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    top: 20%;
+    left: -20%;
+}
+
+.absolute2 {
+    position: absolute;
+    bottom: -10%;
+    right: 10%;
+}
+
+.absolute2 img {
+    background-color: #F0BD00;
+    padding: 15px;
+    border-radius: 15px;
+}

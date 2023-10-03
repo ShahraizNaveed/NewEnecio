@@ -1,0 +1,55 @@
+.projects-slider-section {
+margin: 100px 0;
+}
+
+.projects-span {
+    font-weight: 600;
+    color: #f4ce11;
+}
+
+.slick-slide div {
+    margin: 0 1rem;
+}
+
+.slick-dots li.slick-active button:before {
+color: #f4ce11 !important;
+}
+
+.slick-dots li button:before {
+    font-size: 0.7rem !important;
+    top: 2rem !important;
+}
+
+.projectItems ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .projectItems ul button {
+    border: none;
+    background: transparent;
+    /* border-bottom: 2px solid #F0BD00; */
+    color: #F0BD00;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all ease 0.5s;
+  }
+  
+  .projectItems ul button:hover {
+    color: #15304E;
+    cursor: pointer;
+  }
+  
+  .projects-slider-section img {
+    border-radius: 15px;
+  }
+
+  .project-img{
+    width: 200px !important;
+  }

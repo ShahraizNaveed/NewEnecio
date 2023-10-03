@@ -1,0 +1,41 @@
+.single-project-section {
+    margin: 100px 0;
+}
+
+.border-style {
+    border: 1px solid #838486;
+}
+
+.right-border {
+    border-right: none;
+}
+
+.upper-para {
+    color: #3C3737;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.lower-para {
+    color: #838486;
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: -10px;
+}
+
+.left-span {
+    color: #3C3737;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.right-span {
+    color: #838486;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.left-margin {
+    /* margin-left: 60px; */
+}

@@ -1,0 +1,102 @@
+.blog-card-section {
+    margin: 100px 0;
+}
+
+.card {
+    margin-bottom: 40px;
+    transition: all ease-in 0.3s;
+}
+
+.card-image {
+    transition: all ease-in 0.3s;
+}
+
+.card:hover img, .card-title {
+   cursor: pointer;
+}
+
+.blog-image {
+    position: relative;
+}
+
+.blog-date {
+    position: absolute;
+    left: 75px;
+    bottom: 0;
+    color: #15304E;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.card-body {
+    background-color: #EAEAEA;
+}
+
+.card-body .role-comment {
+    background-color: white;
+    color: #15304E;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+.card-text {
+    color: #15304E;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0 30px;
+}
+
+.card-title {
+    color: #15304E;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.blog-date {
+    background-color: #F0BD00;
+    border-radius: 5px;
+    padding: 5px 25px;
+}
+
+.user-icon {
+    color: #F0BD00;
+}
+
+.load-btn {
+    border: none;
+    padding: 10px 30px;
+    border-radius: 3px;
+    background: #F0BD00;
+    color: #15304E;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    transition: all ease-in 0.3s;
+}
+
+.load-btn:hover {
+    background-color: #15304E;
+    color: white;
+}
+
+
+.fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

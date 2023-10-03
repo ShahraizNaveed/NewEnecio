@@ -1,0 +1,110 @@
+.single-page-section {
+    margin: 100px 0;
+}
+
+.image {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.service-ul {
+    list-style: none;
+}
+
+.service-ul li:before {
+    content: "\2714\0020";
+    color: rgba(0, 0, 0, 0.731);
+}
+
+.right-section-bullet {
+    list-style: none;
+}
+
+.right-section-bullet li:before {
+    content: "»";
+    color: #15304E;
+    margin-right: 5px;
+    font-size: 20px;
+    margin-left: -10px;
+}
+
+.right-section-bullet li {
+    color: #15304E;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.right-section-bullet li:hover {
+    cursor: pointer;
+    color: #bea753;
+}
+
+.services-small-section {
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.color-div {
+    background-color: #F0BD00;
+    border-radius: 3px 3px 0 0;
+}
+
+.color-div p {
+    padding: 15px;
+    margin: 0 5px;
+    color: #15304E;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.get-a-quote button {
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #F0BD00;
+    border: none;
+    padding: 12px 30px;
+    color: #15304E;
+    font-size: 12px;
+    font-weight: 600;
+    transition: all ease-in 0.3s;
+}
+
+.get-a-quote button:hover {
+    background-color: #15304E;
+    color: white;
+}
+
+
+.left-main-section h1 {
+    color: #15304E;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.left-main-section p {
+    color: #838486;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.left-lower-section h4 {
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.left-lower-section p {
+    color: #838486;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.left-lower-section ul li {
+    color: #838486;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 12px 0;
+}
