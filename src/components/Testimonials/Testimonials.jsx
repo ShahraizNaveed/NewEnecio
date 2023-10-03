@@ -49,7 +49,7 @@ const testimonials = [
 const Testimonials = () => {
     const [testimonial, setTestimonial] = useState([]);
     useEffect(() => {
-        axios.get(`http://110.93.240.168:8080/api/About/GetTestimonials`)
+        axios.get(`${import.meta.env.VITE_URL}/api/About/GetTestimonials`)
             .then((res) => {
                 console.log(res.data);
                 setTestimonial(res.data)

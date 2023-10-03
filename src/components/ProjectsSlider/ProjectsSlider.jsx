@@ -66,7 +66,7 @@ const ProjectsSlider = () => {
 
 
     useEffect(() => {
-        axios.get(`http://110.93.240.168:8080/api/Home/GetProjects`)
+        axios.get(`${import.meta.env.VITE_URL}/api/Home/GetProjects`)
             .then((res) => {
                 setProjects(res.data)
             })

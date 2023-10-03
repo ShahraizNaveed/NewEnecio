@@ -86,7 +86,7 @@ const FilterProjects = () => {
 
 
     useEffect(() => {
-        axios.get(`http://110.93.240.168:8080/api/Projects/GetProjects`)
+        axios.get(`${import.meta.env.VITE_URL}/api/Projects/GetProjects`)
             .then((res) => {
                 setLoading(true);
                 setProjects(res.data)

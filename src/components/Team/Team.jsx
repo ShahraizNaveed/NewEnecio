@@ -39,7 +39,7 @@ const Team = () => {
     const [teams, setTeams] = useState([]);
 
     useEffect(() => {
-        axios.get(`http://110.93.240.168:8080/api/Home/GetTeam`)
+        axios.get(`${import.meta.env.VITE_URL}/api/Home/GetTeam`)
             .then((res) => {
                 console.log(res.data);
                 setTeams(res.data)

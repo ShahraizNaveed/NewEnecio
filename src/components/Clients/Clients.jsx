@@ -58,7 +58,7 @@ const Clients = (props) => {
   const [clients, setClients] = useState([]);
 
   useEffect(() => {
-    axios.get(`http://110.93.240.168:8080/api/Home/GetClients`)
+    axios.get(`${import.meta.env.VITE_URL}/api/Home/GetClients`)
       .then((res) => {
         console.log(res.data);
         setClients(res.data)
