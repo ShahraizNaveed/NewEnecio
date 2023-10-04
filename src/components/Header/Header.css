@@ -2,6 +2,10 @@
     transition: all ease 0.5s;
 }
 
+.nav-logo{
+    width: 180px;
+}
+
 .header-bg{
     /* background-color: white; */
     background-color: rgba(222, 224, 227, 0.9);

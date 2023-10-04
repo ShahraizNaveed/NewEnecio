@@ -3,7 +3,12 @@
 }
 
 .footer-logo {
+    width: 200px;
     margin: 30px 0;
+}
+
+.footer-icon-div{
+    margin-left: 10px;
 }
 
 .footer-icon {

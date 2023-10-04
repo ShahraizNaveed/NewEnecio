@@ -1,4 +1,3 @@
-import React from 'react'
 import "./QualityStandards.css"
 import { Col, Container, Row } from 'react-bootstrap'
 import bullet from "../../assets/images/about/bullet.png"
@@ -26,7 +25,7 @@ const QualityStandards = () => {
                                 <img src={bullet} alt="icon" className='img-fluid' />
                             </div>
                             <p>
-                                At Bancroft, our experienced team of professionals devote their heart, time, and energy to more than just the job at hand.
+                                At Eneico, our experienced team of professionals devote their heart, time, and energy to more than just the job at hand.
                             </p>
                         </div>
 
@@ -35,7 +34,7 @@ const QualityStandards = () => {
                                 <img src={bullet} alt="icon" className='img-fluid' />
                             </div>
                             <p>
-                                Our story began as Stephen M. Mockbee Builders in 1975, and since then, Bancroft has experienced over 46 years of continuous growth.
+                                Our story began as Stephen M. Mockbee Builders in 1975, and since then, Eneico has experienced over 46 years of continuous growth.
                             </p>
                         </div>
                     </Col>
@@ -48,7 +47,7 @@ const QualityStandards = () => {
                                 <img src={quality1} alt="quality" className='img-fluid' />
                                 <div className='d-flex justify-content-between'>
                                     <div className='absolute'>
-                                        <img src={quality2} alt="quality" className='img-fluid' />
+                                        <img src={quality2} alt="quality" className='img-fluid person-img' />
                                     </div>
                                     <div className='absolute2'>
                                         <img src={player} alt="player-icon" className='img-fluid player-icon' />

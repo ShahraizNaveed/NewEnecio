@@ -54,3 +54,32 @@
     padding: 15px;
     border-radius: 15px;
 }
+
+@media screen and (max-width: 768px) {
+    .absolute {
+        position: absolute;
+        top: 50%;
+        left: -10%;
+    }
+
+    .person-img{
+        width: 200px;
+    }
+
+
+    .absolute2 {
+        position: absolute;
+        bottom: -10%;
+        right: 10%;
+    }
+
+    .absolute2 img {
+        background-color: #F0BD00;
+        padding: 10px;
+        border-radius: 15px;
+        width: 60px;
+    }
+
+
+  
+  }

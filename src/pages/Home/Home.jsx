@@ -1,6 +1,4 @@
-import React from 'react'
 import HomeBanner from '../../components/Banner/HomeBanner';
-import Service from '../../components/Services/Service';
 import AboutHome from '../../components/AboutHome/AboutHome';
 import Team from '../../components/Team/Team';
 import AfterClientSection from '../../components/AfterClientSection/AfterClientSection';
@@ -13,7 +11,6 @@ const Home = () => {
     <>
       <HomeBanner />
       <AboutHome hide="false" />
-      {/* <Service /> */}
       <ProjectsSlider />
       <Team />
       <Clients hide="false"  />

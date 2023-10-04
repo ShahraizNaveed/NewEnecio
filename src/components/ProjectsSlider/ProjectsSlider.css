@@ -7,6 +7,14 @@ margin: 100px 0;
     color: #f4ce11;
 }
 
+.projects-card{
+  border: none !important;
+}
+
+.projects-card img {
+  height: 250px;
+}
+
 .slick-slide div {
     margin: 0 1rem;
 }

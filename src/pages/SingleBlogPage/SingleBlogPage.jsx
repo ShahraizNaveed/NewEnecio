@@ -1,4 +1,3 @@
-import React from 'react'
 import "./SingleBlogPage.css"
 import { Link, useParams } from 'react-router-dom';
 import CommonBanner from '../../components/CommonBanner/CommonBanner';
@@ -193,6 +192,7 @@ const SingleBlogPage = () => {
     axios.get(`${import.meta.env.VITE_URL}/api/Blogs/GetBlog/${blogId}`)
       .then((res) => {
         setLoading(true);
+        console.log(res.data);
         setData(res.data)
         setLoading(false);
       })

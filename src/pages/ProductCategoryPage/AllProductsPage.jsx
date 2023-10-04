@@ -1,4 +1,3 @@
-import React from 'react'
 import "./AllProductsPage.css"
 import CommonBanner from '../../components/CommonBanner/CommonBanner'
 import Service from '../../components/Services/Service';
@@ -155,7 +154,7 @@ const AllProductsPage = () => {
                 }).map((item) => {
                   return (
                     <>
-                      <div className='my-5' key={item.id}>
+                      <div className='my-5 main-product-div' key={item.id}>
                         <p className='prod-name yellow'>{item.above40 ? "Above 40T" : "Below 40T"}</p>
 
                         <Link to={`/products/${item.productCategory}/${item.id}`}>
@@ -165,7 +164,7 @@ const AllProductsPage = () => {
                         <Row>
                           <Col md={6}>
                             <Link to={`/products/${item.productCategory}/${item.id}`}>
-                              <img src={item.productImage} alt="" className='img-fluid' />
+                              <img src={item.productImage} alt="" className='img-fluid product-center-image' />
                             </Link>
                           </Col>
                           <Col md={6}>

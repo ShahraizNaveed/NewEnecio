@@ -44,3 +44,27 @@
 .margin-negative {
     margin-top: -20px;
 }
+
+@media screen and (max-width: 768px) {
+    .main-product-div{
+        text-align: center;
+    }
+
+    .main-product-div .product-center-image{
+        margin-top: 50px;
+    }
+
+    .main-product-div .prod-title {
+        margin-top: 50px;
+        /* text-align: center; */
+    }
+
+    /* .main-product-div .prod-sepcs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        
+    } */
+}

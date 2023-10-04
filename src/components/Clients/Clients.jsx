@@ -7,9 +7,9 @@ import image3 from "../../assets/images/clients/three.png"
 import image4 from "../../assets/images/clients/four.png"
 import image5 from "../../assets/images/clients/five.png"
 import image6 from "../../assets/images/clients/six.png"
-import image7 from "../../assets/images/clients/seven.png"
-import image8 from "../../assets/images/clients/eight.png"
-import image9 from "../../assets/images/clients/nine.png"
+// import image7 from "../../assets/images/clients/seven.png"
+// import image8 from "../../assets/images/clients/eight.png"
+// import image9 from "../../assets/images/clients/nine.png"
 import logo from "../../assets/images/about/client.png"
 import { Col, Container, Row } from 'react-bootstrap';
 import axios from 'axios';
@@ -39,18 +39,6 @@ const brands = [
     id: 6,
     image: image6
   },
-  {
-    id: 7,
-    image: image7
-  },
-  {
-    id: 8,
-    image: image8
-  },
-  {
-    id: 9,
-    image: image9
-  }
 ]
 
 
@@ -60,7 +48,7 @@ const Clients = (props) => {
   useEffect(() => {
     axios.get(`${import.meta.env.VITE_URL}/api/Home/GetClients`)
       .then((res) => {
-        console.log(res.data);
+        // console.log(res.data);
         setClients(res.data)
       })
   }, [])

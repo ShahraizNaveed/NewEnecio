@@ -1,4 +1,3 @@
-import React from 'react'
 import "./About.css"
 import CommonBanner from '../../components/CommonBanner/CommonBanner'
 import AboutHome from '../../components/AboutHome/AboutHome'

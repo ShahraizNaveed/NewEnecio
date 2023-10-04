@@ -1,7 +1,6 @@
-import React from 'react'
 import "./Footer.css";
-import { Button, Col, Container, Row } from 'react-bootstrap'
-import logo from "../../assets/images/logo/footer-logo.png"
+import { Col, Container, Row } from 'react-bootstrap'
+import logo from "../../assets/images/logo/logo.png"
 import { BsTwitter, BsYoutube, BsLinkedin, BsFacebook } from "react-icons/bs"
 import { Link } from 'react-router-dom';
 import { TbMathGreater } from "react-icons/tb"
@@ -18,7 +17,7 @@ const Footer = () => {
               alt="Eneico"
               className='img-fluid footer-logo'
             />
-            <div>
+            <div className="footer-icon-div">
               <span className='footer-icon mx-2'><BsFacebook /></span>
               <span className='footer-icon'><BsTwitter /></span>
               <span className='footer-icon mx-2'><BsLinkedin /></span>
