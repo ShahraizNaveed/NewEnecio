@@ -26,8 +26,8 @@ function App() {
           <Route exact path='/projects' element={<Projects />} />
           <Route exact path='/projects/:id' element={<SingleProjectPage />} />
           <Route exact path='/products' element={<Products />} />
-          <Route exact path='/products/:category' element={<AllProductsPage />} />
-          <Route exact path='/products/:category/:id' element={<SingleProductPage />} />
+          <Route exact path='/products/:id' element={<AllProductsPage />} />
+          <Route exact path='/product/:productId' element={<SingleProductPage />} />
           <Route exact path='/blog' element={<Blog />} />
           <Route exact path='/blog/:blogId' element={<SingleBlogPage />} />
           <Route exact path='/contact' element={<Contact />} />

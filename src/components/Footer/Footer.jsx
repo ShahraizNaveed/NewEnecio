@@ -1,6 +1,6 @@
 import "./Footer.css";
 import { Col, Container, Row } from 'react-bootstrap'
-import logo from "../../assets/images/logo/logo.png"
+import logo from "../../assets/images/logo/footer.png"
 import { BsTwitter, BsYoutube, BsLinkedin, BsFacebook } from "react-icons/bs"
 import { Link } from 'react-router-dom';
 import { TbMathGreater } from "react-icons/tb"

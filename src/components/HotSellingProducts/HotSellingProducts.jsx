@@ -57,7 +57,7 @@ const HotSellingProducts = () => {
     axios
       .get(`${import.meta.env.VITE_URL}/api/Products/HotSellingProducts`)
       .then((res) => {
-        console.log(res.data);
+        // console.log(res.data);
         setProducts(res.data);
       });
   }, []);
@@ -90,21 +90,21 @@ const HotSellingProducts = () => {
                 >
                   <Col md={6} className="">
                     <div className="product-details">
-                      <Link to={`/products/${prod.categoryName}/${prod.id}`}>
+                      <Link to={`/product/${prod.id}`}>
                         <h5>{prod.productModel}</h5>
                       </Link>
 
-                      <Link to={`/products/${prod.categoryName}/${prod.id}`}>
+                      <Link to={`/product/${prod.id}`}>
                         <h4>{prod.productName}</h4>
                       </Link>
 
                       <p>{prod.productDescription}</p>
 
                       <div className="product-btn">
-                        <Link to={`/products/${prod.categoryName}/${prod.id}`}>
+                        <Link to={`/product/${prod.id}`}>
                           <button className="first">Request A Quote</button>
                         </Link>
-                        <Link to={`/products/${prod.categoryName}/${prod.id}`}>
+                        <Link to={`/product/${prod.id}`}>
                           <button className="second mx-3">Learn More</button>
                         </Link>
                       </div>
@@ -113,7 +113,7 @@ const HotSellingProducts = () => {
 
                   <Col md={6}>
                     <div className="hot-product text-center">
-                      <Link to={`/products/${prod.categoryName}/${prod.id}`}>
+                      <Link to={`/product/${prod.id}`}>
                         {/* <img
                           src={prod.productImage}
                           alt=""

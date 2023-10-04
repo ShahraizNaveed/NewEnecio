@@ -5,3 +5,17 @@
 .black {
     color: black;
 }
+
+.category-images{
+    filter: brightness(0.6) saturate(0%);
+    width: 120px;
+    transition: all ease 0.3s;
+}
+
+.category-images:hover {
+    filter: none;
+}
+
+.category-col{
+    margin-bottom: 30px;
+}

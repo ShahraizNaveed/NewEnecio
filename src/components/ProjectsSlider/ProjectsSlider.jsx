@@ -95,9 +95,6 @@ const ProjectsSlider = () => {
           <h1 className="text-center">
             Our Company <span className="projects-span">Projects</span>
           </h1>
-          <p className="text-center">
-            South-Central construction region since 2005{" "}
-          </p>
 
           {/* <Slider {...settings} className='mt-5'>
                         {

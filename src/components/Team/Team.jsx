@@ -50,7 +50,6 @@ const Team = () => {
             <Container>
                 <Row className='justify-content-center'>
                     <h1 className='text-center'>Our Great <span className='team-span'>Team</span></h1>
-                    <p className='text-center'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, iste.</p>
                     {
                         teams.map((team) => {
                             return (

@@ -7,7 +7,7 @@ import image3 from "../../assets/images/clients/three.png"
 import image4 from "../../assets/images/clients/four.png"
 import image5 from "../../assets/images/clients/five.png"
 import image6 from "../../assets/images/clients/six.png"
-// import image7 from "../../assets/images/clients/seven.png"
+import image7 from "../../assets/images/clients/seven.png"
 // import image8 from "../../assets/images/clients/eight.png"
 // import image9 from "../../assets/images/clients/nine.png"
 import logo from "../../assets/images/about/client.png"
@@ -38,6 +38,10 @@ const brands = [
   {
     id: 6,
     image: image6
+  },
+  {
+    id: 7,
+    image: image7
   },
 ]
 
@@ -96,10 +100,12 @@ const Clients = (props) => {
             } */}
 
             {
-              brands.map((item) => {
+              brands.map((item, index) => {
                 return (
-                  <div key={item.id} className="image_wrapper">
-                    <img src={item.image} alt="" className='img-fluid' />
+                  <div key={index} className="image_wrapper">
+                    <img src={item.image} alt="" className='img-fluid'
+                    style={{ height: index == 2 ? "50px" : "100px" }}
+                    />
                   </div>
                 )
               })

@@ -32,7 +32,7 @@ const AboutHome = (props) => {
               </p>
             )}
             <p className="big-para">
-              Eneico Construction Machinery Company has built a solid
+              Eneico has built a solid
               reputation for delivering top-notch construction machinery
               solutions. Throughout our journey, one guiding principle has
               remained paramount: Unwavering Commitment to Total Machinery
@@ -75,7 +75,7 @@ const AboutHome = (props) => {
                 <img src={image} alt="Image" className="img-fluid" />
                 <div className="upper-portion">
                   <div>
-                    <span className="typography-span">08</span>
+                    <span className="typography-span">03</span>
                     <p className="typography-p">YEARS</p>
                   </div>
                 </div>

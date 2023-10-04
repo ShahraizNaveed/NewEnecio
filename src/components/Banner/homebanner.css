@@ -1,7 +1,7 @@
 .homebanner {
-    background: url('../../assets/images/home/banner.png');
+    background: url('../../assets/images/home/bann.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 100vh;
     display: flex;
     justify-content: center;

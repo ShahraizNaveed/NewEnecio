@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./ProductCategories.css";
 import { Col, Container, Row } from "react-bootstrap";
-import product1 from "../../assets/images/productPage/products/machine1.png";
+import product1 from "../../assets/images/productPage/products/machineColor1.png";
 import { Link } from "react-router-dom";
 import axios from "axios";
 
@@ -47,10 +47,10 @@ const ProductCategories = () => {
           {category.map((item) => (
             <>
               <Col md={3} className="category-col">
-                <Link to={`/products/${item.name}`} className="d-flex justify-content-center align-items-center">
+                <Link to={`/products/${item.id}`} className="d-flex justify-content-center align-items-center">
                   <div>
                     {/* <img src={item.inActiveImage} alt="" className='img-fluid' /> */}
-                    <img src={product1} alt="" className="img-fluid" />
+                    <img src={product1} alt="" className="img-fluid category-images" />
                     <p className="text-center my-3 black">{item.name}</p>
                   </div>
                 </Link>

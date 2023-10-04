@@ -18,7 +18,7 @@
     height: 91px;
     border-radius: 5px;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     text-align: left;
 }
@@ -34,4 +34,16 @@
     text-decoration: none;
     color: #000000;
     margin-right: 30px;
+}
+
+.questions-div p {
+    font-size: 12px;
+    font-weight: bold;
+    text-shadow: whitesmoke 1px 0 10px;
+}
+
+.side-icon-div p {
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 10px;
 }
