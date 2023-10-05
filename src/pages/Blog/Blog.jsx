@@ -1,4 +1,3 @@
-import React from 'react'
 import CommonBanner from '../../components/CommonBanner/CommonBanner'
 import BlogCard from '../../components/BlogCard/BlogCard'
 

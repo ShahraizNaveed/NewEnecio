@@ -1,4 +1,3 @@
-import React from 'react'
 import CommonBanner from '../../components/CommonBanner/CommonBanner'
 import CommonSection from '../../components/CommonSection/CommonSection'
 import FilterProjects from '../../components/FilterProjects/FilterProjetcs';

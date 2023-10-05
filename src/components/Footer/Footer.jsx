@@ -30,9 +30,9 @@ const Footer = () => {
               <p className='footer-link'><TbMathGreater /> About Us</p>
             </Link>
 
-            <Link to="/services">
+            {/* <Link to="/services">
               <p className='footer-link'><TbMathGreater /> Services</p>
-            </Link>
+            </Link> */}
 
             <Link to="/projects">
               <p className='footer-link'><TbMathGreater /> Projects</p>
@@ -48,13 +48,13 @@ const Footer = () => {
 
           </Col>
           <Col md={3}>
-            <h2 className='footer-heading'>OUR SERVICES</h2>
+            {/* <h2 className='footer-heading'>OUR SERVICES</h2>
             <p className='footer-link'><TbMathGreater /> Accurate Measurements</p>
             <p className='footer-link'><TbMathGreater /> Solid Waste Removal</p>
             <p className='footer-link'><TbMathGreater /> Warranty Service</p>
             <p className='footer-link'><TbMathGreater /> Project Planning</p>
             <p className='footer-link'><TbMathGreater /> Constant Maintenance</p>
-            <p className='footer-link'><TbMathGreater /> Qualified Specialists</p>
+            <p className='footer-link'><TbMathGreater /> Qualified Specialists</p> */}
           </Col>
           <Col md={3}>
             <h2 className='footer-heading'>NEWSLETTER</h2>

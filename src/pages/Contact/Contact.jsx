@@ -1,4 +1,3 @@
-import React from 'react'
 import Map from '../../components/Map/Map'
 import CommonBanner from '../../components/CommonBanner/CommonBanner'
 import RequestQuote from '../../components/RequestQuote/RequestQuote';

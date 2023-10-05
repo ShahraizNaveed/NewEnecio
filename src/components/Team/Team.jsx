@@ -41,10 +41,16 @@ const Team = () => {
     useEffect(() => {
         axios.get(`${import.meta.env.VITE_URL}/api/Home/GetTeam`)
             .then((res) => {
-                console.log(res.data);
+                // console.log(res.data);
                 setTeams(res.data)
             })
     }, [])
+
+    const images = {
+        "Backend Engineer": image1,
+        "FrontEnd Engineer": image2
+    }
+
     return (
         <section className='team-section'>
             <Container>
@@ -56,11 +62,11 @@ const Team = () => {
                                 <Col key={team.id} md={3}>
                                     <div className='d-flex justify-content-center'>
                                         <div className='my-5 team-container'>
-                                            <img src={image2} alt={team.name} className='img-fluid' />
-                                            <div className='team-content text-center'>
+                                            <img src={images[team.role]} alt={team.name} className='img-fluid team-image' />
+                                            {/* <div className='team-content text-center'>
                                                 <p className='name'>{team.name}</p>
                                                 <p className='role'>{team.role}</p>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </Col>

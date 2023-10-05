@@ -43,3 +43,10 @@
 .team-container:hover .role {
     font-weight: 600;
 }
+
+.team-image{
+    width: 250px;
+    height: 250px !important;
+    object-fit: cover;
+    border-radius: 2px;
+}

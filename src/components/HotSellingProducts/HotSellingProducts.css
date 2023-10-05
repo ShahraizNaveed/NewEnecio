@@ -5,7 +5,13 @@
 .iframe {
   height: 300px;
   width: 100%;
-  margin-top: 50px;
+  /* margin-top: 50px; */
+}
+
+.selling-images {
+  width: 378px !important;
+  height: 374px !important;
+  object-fit: cover !important;
 }
 
 .hot-product {

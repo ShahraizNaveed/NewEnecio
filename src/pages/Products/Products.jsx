@@ -1,4 +1,3 @@
-import React from 'react'
 import CommonBanner from '../../components/CommonBanner/CommonBanner'
 import HotSellingProducts from '../../components/HotSellingProducts/HotSellingProducts';
 import ProductCategories from '../../components/ProductCategories/productCategories';

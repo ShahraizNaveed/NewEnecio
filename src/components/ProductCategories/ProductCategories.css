@@ -10,6 +10,8 @@
     filter: brightness(0.6) saturate(0%);
     width: 120px;
     transition: all ease 0.3s;
+    width: 130px;
+    height: 80px !important;
 }
 
 .category-images:hover {
@@ -17,5 +19,5 @@
 }
 
 .category-col{
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }

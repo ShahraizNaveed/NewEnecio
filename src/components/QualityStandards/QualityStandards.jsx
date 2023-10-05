@@ -1,9 +1,7 @@
 import "./QualityStandards.css";
 import { Col, Container, Row } from "react-bootstrap";
 import bullet from "../../assets/images/about/bullet.png";
-import quality1 from "../../assets/images/about/quality-1.png";
 import quality2 from "../../assets/images/about/quality-2.png";
-import player from "../../assets/images/about/player-icon.png";
 
 const QualityStandards = () => {
   return (
@@ -62,23 +60,7 @@ const QualityStandards = () => {
           <Col md={5}>
             <section>
               <div className="relative">
-                <img src={quality1} alt="quality" className="img-fluid" />
-                <div className="d-flex justify-content-between">
-                  <div className="absolute">
-                    <img
-                      src={quality2}
-                      alt="quality"
-                      className="img-fluid person-img"
-                    />
-                  </div>
-                  <div className="absolute2">
-                    <img
-                      src={player}
-                      alt="player-icon"
-                      className="img-fluid player-icon"
-                    />
-                  </div>
-                </div>
+                <img src={quality2} alt="quality" className="img-fluid quality-image" />
               </div>
             </section>
           </Col>

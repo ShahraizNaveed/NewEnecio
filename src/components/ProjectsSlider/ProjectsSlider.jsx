@@ -96,17 +96,6 @@ const ProjectsSlider = () => {
             Our Company <span className="projects-span">Projects</span>
           </h1>
 
-          {/* <Slider {...settings} className='mt-5'>
-                        {
-                            projects.map((item) =>
-                                <div key={item.id} className="">
-                                    <img className='img-fluid' src={item.imagePath} />
-                                    <p>{item.clientName}</p>
-                                </div>
-                            )
-                        }
-                    </Slider> */}
-
           <Slider {...settings}>
             {ProjectsData.map((item) => {
               return (

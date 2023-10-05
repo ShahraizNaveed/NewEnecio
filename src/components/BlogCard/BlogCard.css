@@ -9,6 +9,8 @@
 
 .card-image {
     transition: all ease-in 0.3s;
+    height: 180px !important;
+    object-fit: cover;
 }
 
 .card:hover img, .card-title {
